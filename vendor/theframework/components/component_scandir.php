@@ -18,8 +18,9 @@ class ComponentScandir
 
     public function __construct() 
     {
+        $sPathRoot = $_SERVER["DOCUMENT_ROOT"];
         $this->arPaths = [
-            "C:/xampp/htdocs/proy_hydra_flamagas/dts/update_20170620_pricing",
+            $sPathRoot."/data",
         ];
         
         $this->arFiles = [];
@@ -50,13 +51,8 @@ class ComponentScandir
             $sPath = end($sPath);
             foreach($arFiles as $sFileName)
             {
-                if($this->in_string([".XNT"],$sFileName))
-                {
-                    $this->clean([".XNT"],$sFileName);
-                    if(strlen($sFileName)>(14+3))
-                        $sFileName = substr($sFileName,14);
+                if($this->in_string([".json",".csv"],$sFileName))
                     $this->arFiles[$sPath][] = $sFileName;
-                }
             }
             asort($this->arFiles[$sPath]);
         }
@@ -66,9 +62,8 @@ class ComponentScandir
     public function run()
     {
         $arFiles = $this->get_files();
-        pr($arFiles);
+        //pr($arFiles);
+        return $arFiles;
     }
-
-    public function add_path($value){}
     
 }//ComponentScandir

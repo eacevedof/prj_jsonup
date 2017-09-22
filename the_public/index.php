@@ -2,7 +2,7 @@
 include("../vendor/theframework/helpers/autoload.php");
 include("../vendor/theframework/components/autoload.php");
 $oScandir = new \TheFramework\Components\ComponentScandir();
-bug($_SERVER["DOCUMENT_ROOT"]);
+$arFiles = $oScandir->run();
 ?>
 <!doctype html>
 <html lang="en">
@@ -17,7 +17,17 @@ bug($_SERVER["DOCUMENT_ROOT"]);
 </head>
 <body>
     <div id="root">
-        
+        <ul>
+<?php
+foreach($arFiles as $sFile):
+?>
+            <li>
+                <a href="{/data/@$sFile}" target="_blank">{@$sFile}</a>
+            </li>
+<?php
+endforeach;
+?>
+        </ul>
     </div>
 </body>
 </html>
