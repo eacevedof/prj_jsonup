@@ -22,7 +22,7 @@ $arFiles = $oScandir->run();
 foreach($arFiles as $sFile):
 ?>
             <li>
-                <a href="{/data/@$sFile}" target="_blank">{@$sFile}</a>
+                <a href="/data/<?=$sFile?>" target="_blank"><?=$sFile?></a>
             </li>
 <?php
 endforeach;
