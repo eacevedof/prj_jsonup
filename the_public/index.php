@@ -19,12 +19,14 @@ $arFiles = $oScandir->run();
     <div id="root">
         <ul>
 <?php
-foreach($arFiles as $sFile):
+foreach($arFiles as $sFolder=>$arData):
+    foreach($arData as $sFile):
 ?>
             <li>
                 <a href="/data/<?=$sFile?>" target="_blank"><?=$sFile?></a>
             </li>
 <?php
+    endforeach;
 endforeach;
 ?>
         </ul>
