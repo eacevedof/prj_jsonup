@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+
+<Styles>
+ <Style ss:ID="Default" ss:Name="Normal">
+  <Alignment ss:Vertical="Bottom"/>
+  <Borders/>
+  <Font/>
+  <Interior/>
+  <NumberFormat/>
+  <Protection/>
+ </Style>
+ <Style ss:ID="s27">
+  <Font x:Family="Swiss" ss:Color="#0000FF" ss:Bold="1"/>
+ </Style>
+ <Style ss:ID="s21">
+  <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+ </Style>
+ <Style ss:ID="s22">
+  <NumberFormat ss:Format="yyyy\-mm\-dd\ hh:mm:ss"/>
+ </Style>
+ <Style ss:ID="s23">
+  <NumberFormat ss:Format="hh:mm:ss"/>
+ </Style>
+</Styles>
+
+ <Worksheet ss:Name="Sheet1">
+  <ss:Table>
+   <ss:Row>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">processflag</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">insert_platform</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">insert_user</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">insert_date</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">update_platform</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">update_user</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">update_date</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">delete_platform</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">delete_user</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">delete_date</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">cru_csvnote</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">is_erpsent</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">is_enabled</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">i</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">id</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">code_erp</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">type</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">description</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">order_by</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">slug</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">title</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">resume</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">url_permalink</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand Generic</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">100</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">brand-generic</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand Generic</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand Generic</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">/shop/generic/</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">2</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand A</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">100</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">brand-a</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand A</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand A</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">/shop/</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">3</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand B</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">100</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">brand-b</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand B</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand B</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">/shop/</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">4</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand C</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">100</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">brand-c</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand C</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand C</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">/shop/</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">5</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand D</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">100</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">brand-d</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand D</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand D</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">/shop/</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">6</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand E</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">100</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">brand-e</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand E</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Brand E</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">/shop/</Data></ss:Cell>
+   </ss:Row>
+  </ss:Table>
+ </Worksheet>
+</Workbook>
