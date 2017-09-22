@@ -21,9 +21,11 @@ $arFiles = $oScandir->run();
 <?php
 foreach($arFiles as $sFolder=>$arData):
     foreach($arData as $sFile):
+        $sClass = "";
+        if(strstr($sFile,".json")) $sClass="btn btn-info";
 ?>
             <li>
-                <a href="/data/<?=$sFile?>" target="_blank"><?=$sFile?></a>
+                <a href="/data/<?=$sFile?>" target="_blank" class="<?=$sClass?>"><?=$sFile?></a>
             </li>
 <?php
     endforeach;
