@@ -3,7 +3,7 @@ include("../vendor/theframework/helpers/autoload.php");
 include("../vendor/theframework/components/autoload.php");
 $oScandir = new \TheFramework\Components\ComponentScandir();
 $arFiles = $oScandir->run();
-pr($_SERVER["HTTP_HOST"]);
+$sDomain = $_SERVER["HTTP_HOST"];
 ?>
 <!doctype html>
 <html lang="en">
@@ -28,7 +28,7 @@ foreach($arFiles as $sFolder=>$arData):
 ?>
             <li>
                 <a href="/data/<?=$sFile?>" target="_blank" class="<?=$sClass?>">
-                    http://json.theframework.es/data/<?=$sFile?>
+                    http://<?=$sDomain?>/data/<?=$sFile?>
                 </a>
             </li>
 <?php
