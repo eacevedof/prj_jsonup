@@ -1,5 +1,5 @@
 <?php
-include("../theframework/components/autoload.php");
+include("../vendor/theframework/components/autoload.php");
 $oScandir = new \TheFramework\Components\ComponentScandir();
 bug($_SERVER["DOCUMENT_ROOT"]);
 ?>
