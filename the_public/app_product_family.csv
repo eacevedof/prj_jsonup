@@ -1,0 +1,13 @@
+processflag	insert_platform	insert_user	insert_date	update_platform	update_user	update_date	delete_platform	delete_user	delete_date	cru_csvnote	is_erpsent	is_enabled	i	id	code_erp	type	description	order_by	slug	title	resume	permalink
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	1	\N	\N	Category Generic	100	category-generic	Category Generic	\N	/shop/generic/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	2	\N	\N	Assortments	100	assortments	Assortments	\N	/shop/assortments/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	3	\N	\N	Category A	100	category-a	Category A	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	4	\N	\N	Category B	100	category-b	Category B	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	5	\N	\N	Category C	100	category-c	Category C	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	6	\N	\N	Category D	100	category-d	Category D	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	7	\N	\N	Category E	100	category-e	Category E	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	8	\N	\N	Category F	100	category-f	Category F	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	9	\N	\N	Category G	100	category-g	Category G	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	10	\N	\N	Category H	100	category-h	Category H	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	11	\N	\N	Category I	100	category-i	Category I	\N	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	1	\N	12	\N	\N	Category J	100	category-j	Category J	\N	/shop/

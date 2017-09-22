@@ -1,0 +1,60 @@
+processflag	insert_platform	insert_user	insert_date	update_platform	update_user	update_date	delete_platform	delete_user	delete_date	cru_csvnote	is_erpsent	is_enabled	i	id	code_erp	type	id_tosave	description	order_by	slug	title	resume	url_permalink
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	1	\N	container	\N	1	100	1	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	2	\N	container	\N	BOTTLE	100	bottle	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	3	\N	container	\N	CARTRIDGE	100	cartridge	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	4	\N	container	\N	CASE	100	case	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	5	\N	container	\N	DRUM	100	drum	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	6	\N	container	\N	EMPTY PAIL	100	empty-pail	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	7	\N	container	\N	PAIL	100	pail	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	8	\N	container	\N	TANK	100	tank	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	9	\N	size	\N	0.25L	100	0.25l	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	10	\N	size	\N	1000L	100	1000l	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	11	\N	size	\N	10X400GR	100	10x400gr	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	12	\N	size	\N	12X0.5L	100	12x0.5l	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	13	\N	size	\N	12x1AQ	100	12x1aq	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	14	\N	size	\N	12X1L	100	12x1l	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	15	\N	size	\N	12X1Q	100	12x1q	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	16	\N	size	\N	12X400GR	100	12x400gr	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	17	\N	size	\N	188KGS	100	188kgs	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	18	\N	size	\N	1AG	100	1ag	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	19	\N	size	\N	1L	100	1l	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	20	\N	size	\N	1Q	100	1q	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	21	\N	size	\N	30X400GR	100	30x400gr	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	22	\N	size	\N	35LB	100	35lb	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	23	\N	size	\N	400GR	100	400gr	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	24	\N	size	\N	4L	100	4l	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	25	\N	size	\N	4X1AG	100	4x1ag	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	26	\N	size	\N	4X4L	100	4x4l	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	27	\N	size	\N	55AG	100	55ag	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	28	\N	size	\N	5AG	100	5ag	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	29	\N	size	\N	6x1	100	6x1	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	30	\N	size	\N	6X1AG	100	6x1ag	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	31	\N	size	\N	6X1AQ	100	6x1aq	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	32	\N	size	\N	6X1L	100	6x1l	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	33	\N	size	\N	AQ	100	aq	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	34	\N	size	\N	LITER	100	liter	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	35	\N	volume	Q	AQ	100	aq	\N	\N	\N
+\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	36	\N	volume	G	AG	100	ag	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	37	radio	assortments	\N	Drink	100	drink	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	38	radio	assortments	\N	Pastries	100	pastries	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	39	radio	assortments	\N	Starter	100	starter	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	40	radio	assortments	\N	Main course	100	main-course	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	41	radio	assortments	\N	Desert	100	desert	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	42	radio	assortments	\N	Base	100	base	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	43	check	assortments	\N	Ingredients	100	ingredients	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	44	check	assortments	\N	Extras	100	extras	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	45	\N	filter_1	(%f%>200)	200+	100	more-than-200	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	46	\N	filter_1	(%f%>=100 AND %f%<=200)	100 to 200	100	from-100-to-200	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	47	\N	filter_1	(%f%>=50 AND %f%<=100)	50 to 100	100	from-50-to-200	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	48	\N	filter_1	(%f%>=25 AND %f%<=50)	25 to 50	100	from-25-to-50	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	49	\N	filter_1	(%f%<=25)	less than 25	100	less-than-25	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	50	\N	orderby_1	%f% DESC	Price high to low	100	price-high-to-low	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	51	\N	orderby_1	%f% ASC	Price low to high	100	price-low-to-high	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	52	\N	orderby_1	%f% ASC	A to Z	100	a-to-z	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	53	\N	orderby_1	%f% DESC	Z to A	100	z-to-a	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	54	\N	orderby_1	%f% DESC	In stock first	100	in-stock-first	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	55	\N	orderby_1	%f% DESC	Newest first	100	newest-first	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	56	\N	orderby_1	%f% ASC	Oldest first	100	oldest-first	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	57	\N	orderby_1	%f% DESC	On Sale first	100	on-sale-first	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	58	\N	assorttype	1	Fixed	100	fixed	\N	\N	\N
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	59	\N	assorttype	2	Dinamic	100	dinamic	\N	\N	\N

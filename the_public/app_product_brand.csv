@@ -1,0 +1,7 @@
+processflag	insert_platform	insert_user	insert_date	update_platform	update_user	update_date	delete_platform	delete_user	delete_date	cru_csvnote	is_erpsent	is_enabled	i	id	code_erp	type	description	order_by	slug	title	resume	url_permalink
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	1	\N	1	Brand Generic	100	brand-generic	Brand Generic	Brand Generic	/shop/generic/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	2	\N	\N	Brand A	100	brand-a	Brand A	Brand A	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	3	\N	\N	Brand B	100	brand-b	Brand B	Brand B	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	4	\N	\N	Brand C	100	brand-c	Brand C	Brand C	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	5	\N	\N	Brand D	100	brand-d	Brand D	Brand D	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	6	\N	\N	Brand E	100	brand-e	Brand E	Brand E	/shop/

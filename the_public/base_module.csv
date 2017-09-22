@@ -1,0 +1,24 @@
+processflag	insert_platform	insert_user	insert_date	update_platform	update_user	update_date	delete_platform	delete_user	delete_date	cru_csvnote	is_erpsent	is_enabled	i	id	code_erp	description	order_by	id_type	notedev	noteuser	is_shortcut	is_select_menu	is_insert_menu	is_pick	is_select	is_insert	is_read	is_update	is_delete	is_quarantine	is_excelexport	is_print	is_foreign
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	1	homes	homes	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	2	users	users	100	2	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	3	sellers	sellers	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	4	customers	customers	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	5	products	products	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	6	orders	orders	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	3	1	20150829224534	\N	\N	\N	\N	0	1	\N	7	orderlines	orderlines	100	3	\N	\N	1	0	0	1	0	1	0	1	1	0	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	8	customernotes	customernotes	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	9	blacklists	blacklists	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	10	ajax	ajax	100	1	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	1	1	20130616210419	\N	\N	\N	\N	0	1	\N	11	modulebuilder	modulebuilder	100	1	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20130616210419	3	1	20150830005530	\N	\N	\N	\N	0	1	\N	12	pictures	pictures	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20131106192418	1	1	20131106192418	\N	\N	\N	\N	0	1	\N	13	projects	projects	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20131109143148	1	1	20131109143148	\N	\N	\N	\N	0	1	\N	14	transfers	transfers	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20140405162224	1	1	20140405162224	\N	\N	\N	\N	0	1	\N	15	suspicions	suspicions	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20140807060754	3	1	20150825204114	\N	\N	\N	\N	0	1	\N	16	balances	balances	100	3	\N	Balances incialmente para el chalan	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20150825172508	1	1	20150825172508	\N	\N	\N	\N	0	1	\N	17	modules	modules	100	2	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	1	20150919200047	1	1	20150919200047	\N	\N	\N	\N	0	1	\N	18	languages	languages	100	3	\N	\N	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	3	1	20151012201712	3	1	20151012201735	\N	\N	\N	\N	0	1	\N	19	assortments	assortments	100	3	Surtidos, grupos de productos para venta online	Surtidos, grupos de productos	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	3	1	20151012205218	3	1	20151012205218	\N	\N	\N	\N	0	1	\N	20	cmsmenus	cmsmenus	100	3			1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	3	1	20151025170603	3	1	20151025170603	\N	\N	\N	\N	0	1	\N	21	cmscontents	cmscontents	100	3			1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	3	-10	20151103192223	4	1	20161022150633	\N	\N	\N	\N	0	1	\N	22	cmsauthors	cmsauthors	100	3	CMS Authors	CMS Authors	1	1	1	1	1	1	1	1	1	1	1	1	1
+\N	1	-10	20170205080800	3	1	20170205080800	\N	\N	\N	\N	0	1	\N	23	shopproducts	shopproducts	100	3	Shop app_shop_* tablas venta en web	Shop gestion de venta de productos online	1	1	1	1	1	1	1	1	1	1	1	1	1

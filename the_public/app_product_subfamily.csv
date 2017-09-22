@@ -1,0 +1,16 @@
+processflag	insert_platform	insert_user	insert_date	update_platform	update_user	update_date	delete_platform	delete_user	delete_date	cru_csvnote	is_erpsent	is_enabled	i	id	code_erp	type	description	order_by	id_product_family	slug	title	resume	permalink
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	1	\N	\N	Subcategory Generic 1	100	1	subcategory-generic-1	Subcategory Generic 1	Subcategory Generic 1	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	2	\N	\N	Subcategory Generic 2	100	1	subcategory-generic-2	Subcategory Generic 2	Subcategory Generic 2	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	3	\N	\N	Subcategory Generic 3	100	1	subcategory-generic-3	Subcategory Generic 3	Subcategory Generic 3	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	4	\N	\N	Subcategory Generic 4	100	1	subcategory-generic-4	Subcategory Generic 4	Subcategory Generic 4	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	5	\N	\N	Subcategory Generic 5	100	1	subcategory-generic-5	Subcategory Generic 5	Subcategory Generic 5	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	6	\N	\N	Subassortment 1	100	2	subassortment-1	Subassortment 1	Subassortment 1	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	7	\N	\N	Subassortment 2	100	2	subassortment-2	Subassortment 2	Subassortment 2	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	8	\N	\N	Subassortment 3	100	2	subassortment-3	Subassortment 3	Subassortment 3	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	9	\N	\N	Subassortment 4	100	2	subassortment-4	Subassortment 4	Subassortment 4	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	10	\N	\N	Subassortment 5	100	2	subassortment-5	Subassortment 5	Subassortment 5	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	11	\N	\N	Subcategory A1	100	3	subcategory-a1	Subcategory A1	Subcategory A1	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	12	\N	\N	Subcategory A2	100	3	subcategory-a2	Subcategory A2	Subcategory A2	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	13	\N	\N	Subcategory A3	100	3	subcategory-a3	Subcategory A3	Subcategory A3	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	14	\N	\N	Subcategory A4	100	3	subcategory-a4	Subcategory A4	Subcategory A4	/shop/
+\N	1	\N	\N	\N	\N	\N	\N	\N	\N	\N	0	1	\N	15	\N	\N	Subcategory A5	100	3	subcategory-a5	Subcategory A5	Subcategory A5	/shop/
