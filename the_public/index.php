@@ -28,8 +28,11 @@ foreach($arFiles as $sFolder=>$arData):
 ?>
             <li>
                 <a href="/data/<?=$sFile?>" target="_blank" class="<?=$sClass?>">
-                    http://<?=$sDomain?>/data/<?=$sFile?>
+                    <?=$sFile?>
                 </a>
+                <label>
+                    http://<?=$sDomain?>/data/<?=$sFile?>
+                </label>
             </li>
 <?php
     endforeach;
