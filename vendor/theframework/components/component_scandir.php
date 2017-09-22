@@ -20,9 +20,6 @@ class ComponentScandir
     {
         $this->arPaths = [
             "C:/xampp/htdocs/proy_hydra_flamagas/dts/update_20170620_pricing",
-            "C:/xampp/htdocs/proy_hydra_flamagas/dts/update_20170705_tablas_enblanco",
-            "C:/xampp/htdocs/proy_hydra_flamagas/dts/update_20170706_campo_en_knb1",
-            "C:/xampp/htdocs/proy_hydra_flamagas/dts/Datos/IN/BackUP"
         ];
         
         $this->arFiles = [];

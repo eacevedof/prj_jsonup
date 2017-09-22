@@ -1,6 +1,7 @@
 <?php
 include("../theframework/components/autoload.php");
-
+$oScandir = new \TheFramework\Components\ComponentScandir();
+bug($_SERVER["DOCUMENT_ROOT"]);
 ?>
 <!doctype html>
 <html lang="en">
