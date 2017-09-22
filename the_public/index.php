@@ -3,6 +3,7 @@ include("../vendor/theframework/helpers/autoload.php");
 include("../vendor/theframework/components/autoload.php");
 $oScandir = new \TheFramework\Components\ComponentScandir();
 $arFiles = $oScandir->run();
+pr($_SERVER["HTTP_HOST"]);
 ?>
 <!doctype html>
 <html lang="en">
@@ -23,9 +24,12 @@ foreach($arFiles as $sFolder=>$arData):
     foreach($arData as $sFile):
         $sClass = "";
         if(strstr($sFile,".json")) $sClass="btn btn-info";
+        
 ?>
             <li>
-                <a href="/data/<?=$sFile?>" target="_blank" class="<?=$sClass?>"><?=$sFile?></a>
+                <a href="/data/<?=$sFile?>" target="_blank" class="<?=$sClass?>">
+                    http://json.theframework.es/data/<?=$sFile?>
+                </a>
             </li>
 <?php
     endforeach;
