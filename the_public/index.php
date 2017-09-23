@@ -1,9 +1,13 @@
 <?php
 include("../vendor/theframework/helpers/autoload.php");
 include("../vendor/theframework/components/autoload.php");
+$oGetFile = new \TheFramework\Components\ComponentFilecontent();
+$oGetFile->run();
+
 $oScandir = new \TheFramework\Components\ComponentScandir();
 $arFiles = $oScandir->run();
 $sDomain = $_SERVER["HTTP_HOST"];
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -31,14 +35,15 @@ foreach($arFiles as $sFolder=>$arData):
     foreach($arData as $sFile):
         $sClass = "";
         if(strstr($sFile,".json")) $sClass="btn btn-info";
+        $sUrl = "index.php?getfile=$sFile"
         
 ?>
             <li>
-                <a href="/data/<?=$sFile?>" target="_blank" class="<?=$sClass?>">
+                <a href="<?=$sUrl?>" target="_blank" class="<?=$sClass?>">
                     <?=$sFile?>
                 </a>
                 <label>
-                    http://<?=$sDomain?>/data/<?=$sFile?>
+                    http://<?=$sDomain?>/<?=$sFile?>
                 </label>
             </li>
 <?php
