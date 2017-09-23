@@ -2,6 +2,7 @@
 include("../vendor/theframework/helpers/autoload.php");
 include("../vendor/theframework/components/autoload.php");
 $oGetFile = new \TheFramework\Components\ComponentFilecontent();
+//si viene $_GET["getfile"] y existe esto lanza headers y un exit
 $oGetFile->run();
 
 $oScandir = new \TheFramework\Components\ComponentScandir();
