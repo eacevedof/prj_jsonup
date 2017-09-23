@@ -51,7 +51,7 @@ class ComponentFilecontent
             $sContent = "Empty file $this->sGetFile";
         
         foreach($this->arHeaders as $sKey=>$sValue)
-            header($sKey,$sValue);
+            header("$sKey:$sValue");
         
         s($sContent);
         exit();

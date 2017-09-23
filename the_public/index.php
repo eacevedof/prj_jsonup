@@ -43,7 +43,7 @@ foreach($arFiles as $sFolder=>$arData):
                     <?=$sFile?>
                 </a>
                 <label>
-                    http://<?=$sDomain?>/<?=$sFile?>
+                    http://<?=$sDomain?>/<?=$sUrl?>
                 </label>
             </li>
 <?php
