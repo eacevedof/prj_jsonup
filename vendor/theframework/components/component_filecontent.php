@@ -4,8 +4,8 @@
  * @link www.eduardoaf.com
  * @name ComponentFilecontent
  * @file component_filecontent.php
- * @version 1.0.0
- * @date 23-09-2017 16:05
+ * @version 2.0.0
+ * @date 30-09-2017 16:05
  * @observations
  * Flamagas 
  */
@@ -13,19 +13,41 @@ namespace TheFramework\Components;
 
 class ComponentFilecontent 
 {
+    private $sPathRoot;
     private $sGetFile;
     private $sPahFolder;
     private $arHeaders;
+    private $sPrivToken;
 
-    public function __construct() 
+    public function __construct($sToken=NULL) 
     {
-        $sPathRoot = $_SERVER["DOCUMENT_ROOT"];
-        $this->sPahFolder = $sPathRoot."/data";
+        $this->sPathRoot = $_SERVER["DOCUMENT_ROOT"];
+        $this->sPrivToken = (isset($_GET["token"])?$_GET["token"]:$sToken);
         $this->sGetFile = (isset($_GET["getfile"])?$_GET["getfile"]:"");
         
+        $this->sPahFolder = $this->sPathRoot."/data";
+        if($this->sPrivToken)
+            $this->sPahFolder.="/private";
+        else
+            $this->sPahFolder.="/public";
+          
         //headers por defecto
         $this->arHeaders["Content-Type"]="application/json";
         $this->arHeaders["Access-Control-Allow-Origin"]="*";
+    }
+    
+    private function is_tokenok()
+    {
+        $sTokenFile = $this->sPathRoot."/data/private/".APP_FILENAME_TOKEN;
+        if(!is_file($sTokenFile))
+            return FALSE;
+        $sToken = file_get_contents($sTokenFile);
+        //bug($sToken,"token 1");
+        $sToken = json_decode($sToken,TRUE);
+        //pr($sToken,"token 2");die;
+        $sToken = (isset($sToken[0]["token"])?$sToken[0]["token"]:"");
+        pr("key:$sToken,gettoken=$this->sPrivToken");
+        return ($this->sPrivToken===$sToken);
     }
     
     private function in_string($arChars=[],$sString)

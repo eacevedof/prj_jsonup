@@ -1,7 +1,8 @@
 <?php
-//index.php 1.0.2
+//index.php 1.0.3
 include("../vendor/theframework/helpers/autoload.php");
 include("../vendor/theframework/components/autoload.php");
+define("APP_FILENAME_TOKEN","token.key");
 $oGetFile = new \TheFramework\Components\ComponentFilecontent();
 //si viene $_GET["getfile"] y existe esto lanza headers y un exit
 $oGetFile->run();
@@ -42,7 +43,9 @@ foreach($arFiles as $sFolder=>$arData):
     foreach($arData as $i=>$sFile):
         $sClass = "";
         if(strstr($sFile,".json")) $sClass="btn btn-info";
-        $sUrl = "index.php?getfile=$sFile"
+        $sUrl = "index.php?getfile=$sFile";
+        if(isset($_GET["token"]) && $sFolder=="private")
+            $sUrl .= "&token={$_GET["token"]}"
         
 ?>
             <li>

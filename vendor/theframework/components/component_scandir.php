@@ -33,7 +33,7 @@ class ComponentScandir
     
     private function is_tokenok()
     {
-        $sTokenFile = $this->sPathRoot."/data/private/token.key";
+        $sTokenFile = $this->sPathRoot."/data/private/".APP_FILENAME_TOKEN;
         if(!is_file($sTokenFile))
             return FALSE;
         $sToken = file_get_contents($sTokenFile);
