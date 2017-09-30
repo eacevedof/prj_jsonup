@@ -1,0 +1,3 @@
+# the_public\data\private\.htaccess 1.0.0
+# solo se podra accerder a estos archivos usando php y con token
+RewriteCond %{REQUEST_URI} !\.(csv|json|key)$
