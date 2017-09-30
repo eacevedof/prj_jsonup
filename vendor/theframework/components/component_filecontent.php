@@ -4,7 +4,7 @@
  * @link www.eduardoaf.com
  * @name ComponentFilecontent
  * @file component_filecontent.php
- * @version 2.1.0
+ * @version 2.1.1
  * @date 30-09-2017 16:05
  * @observations
  * Flamagas 
@@ -81,8 +81,9 @@ class ComponentFilecontent
     
     private function dieerror($sData)
     {
-        $arError = ["error"=>["number"=>"001","message"=>"wrong token!","data_received"=>$sData]];
-        $sError = json_encode(array_values($arError));
+        $arError = [];
+        $arError[] = ["error"=>["number"=>"001","message"=>"wrong token!","data_received"=>$sData]];
+        $sError = json_encode($arError);
         die($sError);
     }
     
