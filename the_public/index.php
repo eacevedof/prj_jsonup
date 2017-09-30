@@ -33,7 +33,11 @@ $sDomain = $_SERVER["HTTP_HOST"];
     <div id="root">
         <ul>
 <?php
+$sClassSpan = "badge-success";
 foreach($arFiles as $sFolder=>$arData):
+    if($sFolder=="private")
+        $sClassSpan = "badge-danger";
+    
     foreach($arData as $i=>$sFile):
         $sClass = "";
         if(strstr($sFile,".json")) $sClass="btn btn-info";
@@ -41,7 +45,7 @@ foreach($arFiles as $sFolder=>$arData):
         
 ?>
             <li>
-                <span class="badge badge-danger"><?=$sFolder." - ".($i+1)?> </span>
+                <span class="badge <?=$sClassSpan?>"><?=$sFolder." - ".($i+1)?> </span>
                 <a href="<?=$sUrl?>" target="_blank" class="<?=$sClass?>">
                     <?=$sFile?>
                 </a>
@@ -50,8 +54,8 @@ foreach($arFiles as $sFolder=>$arData):
                 </label>
             </li>
 <?php
-    endforeach;
-endforeach;
+    endforeach;//foreach $arData
+endforeach;//foreach arFiles
 ?>
         </ul>
     </div>
