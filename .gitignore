@@ -1,4 +1,9 @@
-# version 1.0.0 
+# version 1.0.1
+# prj_jsonup
+the_public/data/private/token.key
+#https://github.com/zserge/jsmn.
+the_public/data/private/jsmn.json
+
 # -- logs
 *.log
 
