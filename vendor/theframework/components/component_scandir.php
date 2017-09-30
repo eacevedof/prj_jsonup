@@ -4,7 +4,7 @@
  * @link www.eduardoaf.com
  * @name ComponentScandir
  * @file component_scandir.php
- * @version 1.2.1
+ * @version 1.2.2
  * @date 30-09-2017 12:06
  * @observations
  * Flamagas devuelve todos los archivos .XNT que nos han pasado
@@ -28,7 +28,7 @@ class ComponentScandir
         
         //$this->arFiles = ["private"=>[],"public"=>[]];
         $this->arFiles = [];
-        $this->sPrivToken = $sToken;
+        $this->sPrivToken = (isset($_GET["token"])?$_GET["token"]:$sToken);
     }
     
     private function is_tokenok()
