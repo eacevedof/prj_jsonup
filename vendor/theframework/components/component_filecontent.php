@@ -4,7 +4,7 @@
  * @link www.eduardoaf.com
  * @name ComponentFilecontent
  * @file component_filecontent.php
- * @version 2.0.1
+ * @version 2.0.2
  * @date 30-09-2017 16:05
  * @observations
  * Flamagas 
@@ -94,7 +94,7 @@ class ComponentFilecontent
                     else
                     {
                         lg("wrong token: $this->sPrivToken,uri:{$_SERVER["REQUEST_URI"]}");
-                        return FALSE;
+                        die("wrong token: $this->sPrivToken");
                     }
                 }
                 return (is_file($sPathFile)?$sPathFile:FALSE);

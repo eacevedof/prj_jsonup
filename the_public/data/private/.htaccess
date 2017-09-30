@@ -1,3 +1,0 @@
-# the_public\data\private\.htaccess 1.0.1
-# solo se podra accerder a estos archivos usando php y con token
-RedirectMatch 403 ^/data/private/.+\.(csv|json|key)$
