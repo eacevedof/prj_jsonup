@@ -37,7 +37,9 @@ class ComponentScandir
         if(!is_file($sTokenFile))
             return FALSE;
         $sToken = file_get_contents($sTokenFile);
+        bug($sToken,"token 1");
         $sToken = json_decode($sToken);
+        pr($sToken,"token 2");die;
         $sToken = (isset($sToken[0]["token"])?$sToken[0]["token"]:"");
         pr("key:$sToken,gettoken=$this->sPrivToken");
         return ($this->sPrivToken===$sToken);
