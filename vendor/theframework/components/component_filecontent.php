@@ -82,7 +82,7 @@ class ComponentFilecontent
     private function dieerror($sData)
     {
         $arError = ["error"=>["number"=>"001","message"=>"wrong token!","data_received"=>$sData]];
-        $sError = json_encode($arError);
+        $sError = json_encode(array_values($arError));
         die($sError);
     }
     
