@@ -35,7 +35,8 @@ $sDomain = $_SERVER["HTTP_HOST"];
 <?php
 $sClassSpan = "badge-success";
 foreach($arFiles as $sFolder=>$arData):
-    if($sFolder=="private")
+    
+    if($sFolder=="public")
         $sClassSpan = "badge-danger";
     
     foreach($arData as $i=>$sFile):
