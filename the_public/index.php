@@ -1,4 +1,5 @@
 <?php
+//index.php 1.0.2
 include("../vendor/theframework/helpers/autoload.php");
 include("../vendor/theframework/components/autoload.php");
 $oGetFile = new \TheFramework\Components\ComponentFilecontent();
@@ -33,13 +34,14 @@ $sDomain = $_SERVER["HTTP_HOST"];
         <ul>
 <?php
 foreach($arFiles as $sFolder=>$arData):
-    foreach($arData as $sFile):
+    foreach($arData as $i=>$sFile):
         $sClass = "";
         if(strstr($sFile,".json")) $sClass="btn btn-info";
         $sUrl = "index.php?getfile=$sFile"
         
 ?>
             <li>
+                <span class="badge badge-success"><?=$sFolder." - ".($i+1)?> </span>
                 <a href="<?=$sUrl?>" target="_blank" class="<?=$sClass?>">
                     <?=$sFile?>
                 </a>
