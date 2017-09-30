@@ -94,7 +94,7 @@ class ComponentFilecontent
                     else
                     {
                         lg("wrong token: $this->sPrivToken,uri:{$_SERVER["REQUEST_URI"]}");
-                        die("wrong token: $this->sPrivToken");
+                        die("error:001,message:wrong token!,data:$this->sPrivToken");
                     }
                 }
                 return (is_file($sPathFile)?$sPathFile:FALSE);
