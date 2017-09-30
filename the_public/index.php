@@ -33,11 +33,11 @@ $sDomain = $_SERVER["HTTP_HOST"];
     <div id="root">
         <ul>
 <?php
-$sClassSpan = "badge-success";
+$sClassSpan = "badge-danger";
 foreach($arFiles as $sFolder=>$arData):
     
     if($sFolder=="public")
-        $sClassSpan = "badge-danger";
+        $sClassSpan = "badge-success";
     
     foreach($arData as $i=>$sFile):
         $sClass = "";
