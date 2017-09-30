@@ -1,8 +1,10 @@
 <?php
-//index.php 1.0.3
+//index.php 1.0.4
 include("../vendor/theframework/helpers/autoload.php");
 include("../vendor/theframework/components/autoload.php");
+
 define("APP_FILENAME_TOKEN","token.key");
+
 $oGetFile = new \TheFramework\Components\ComponentFilecontent();
 //si viene $_GET["getfile"] y existe esto lanza headers y un exit
 $oGetFile->run();

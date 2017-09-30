@@ -92,7 +92,10 @@ class ComponentFilecontent
                         return $sPathFile;
                     //es archivo privado pero el token es incorrecto
                     else
+                    {
+                        lg("wrong token: $this->sPrivToken,uri:{$_SERVER["REQUEST_URI"]}");
                         return FALSE;
+                    }
                 }
                 return (is_file($sPathFile)?$sPathFile:FALSE);
             }
