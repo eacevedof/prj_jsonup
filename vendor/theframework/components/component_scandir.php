@@ -4,7 +4,7 @@
  * @link www.eduardoaf.com
  * @name ComponentScandir
  * @file component_scandir.php
- * @version 1.2.2
+ * @version 1.2.3
  * @date 30-09-2017 12:06
  * @observations
  * Flamagas devuelve todos los archivos .XNT que nos han pasado
@@ -41,7 +41,7 @@ class ComponentScandir
         $sToken = json_decode($sToken,TRUE);
         //pr($sToken,"token 2");die;
         $sToken = (isset($sToken[0]["token"])?$sToken[0]["token"]:"");
-        pr("key:$sToken,gettoken=$this->sPrivToken");
+        //pr("key:$sToken,gettoken=$this->sPrivToken");
         return ($this->sPrivToken===$sToken);
     }
     

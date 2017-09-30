@@ -4,7 +4,7 @@
  * @link www.eduardoaf.com
  * @name ComponentFilecontent
  * @file component_filecontent.php
- * @version 2.0.0
+ * @version 2.0.1
  * @date 30-09-2017 16:05
  * @observations
  * Flamagas 
@@ -46,7 +46,7 @@ class ComponentFilecontent
         $sToken = json_decode($sToken,TRUE);
         //pr($sToken,"token 2");die;
         $sToken = (isset($sToken[0]["token"])?$sToken[0]["token"]:"");
-        pr("key:$sToken,gettoken=$this->sPrivToken");
+        //pr("key:$sToken,gettoken=$this->sPrivToken");
         return ($this->sPrivToken===$sToken);
     }
     
@@ -86,6 +86,14 @@ class ComponentFilecontent
             if($this->sGetFile)
             {
                 $sPathFile = $this->sPahFolder."/$this->sGetFile";
+                if($this->in_string(["/private/"],$sPathFile))
+                {
+                    if($this->is_tokenok())
+                        return $sPathFile;
+                    //es archivo privado pero el token es incorrecto
+                    else
+                        return FALSE;
+                }
                 return (is_file($sPathFile)?$sPathFile:FALSE);
             }
         return FALSE;
