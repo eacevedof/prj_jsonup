@@ -4,7 +4,7 @@
  * @link www.eduardoaf.com
  * @name ComponentFilecontent
  * @file component_filecontent.php
- * @version 2.0.2
+ * @version 2.1.0
  * @date 30-09-2017 16:05
  * @observations
  * Flamagas 
@@ -79,6 +79,13 @@ class ComponentFilecontent
         exit();
     }
     
+    private function dieerror($sData)
+    {
+        $arError = ["error"=>["number"=>"001","message"=>"wrong token!","data_received"=>$sData]];
+        $sError = json_encode($arError);
+        die($sError);
+    }
+    
     private function is_file()
     {
         //comprobar si es solo json o csv
@@ -94,7 +101,7 @@ class ComponentFilecontent
                     else
                     {
                         lg("wrong token: $this->sPrivToken,uri:{$_SERVER["REQUEST_URI"]}");
-                        die("error:001,message:wrong token!,data:$this->sPrivToken");
+                        $this->dieerror($this->sPrivToken);
                     }
                 }
                 return (is_file($sPathFile)?$sPathFile:FALSE);
