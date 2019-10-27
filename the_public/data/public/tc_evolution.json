@@ -1,0 +1,2911 @@
+{
+    "report":{
+       "chartconfig":{
+          "chart":{
+             "renderTo":"informe-graficos",
+             "defaultSeriesType":"spline",
+             "marginRight":25,
+             "marginBottom":25,
+             "marginTop":100,
+             "zoomType":"x"
+          },
+          "title":{
+             "text":"Informe de evoluci\u00f3n (Business Line)"
+          },
+          "xAxis":{
+             "type":"datetime",
+             "gridLineWidth":1,
+             "tickInterval":604800000,
+             "dateTimeLabelFormats":{
+                "second":"%H:%M:%S",
+                "minute":"%H:%M",
+                "hour":"%Hh",
+                "day":"%e. %b",
+                "week":"%e. %b",
+                "month":"%b %Y",
+                "year":"%Y"
+             }
+          },
+          "yAxis":{
+             "title":{
+                "text":"Net Additions"
+             }
+          },
+          "legend":{
+             "layout":"horizontal",
+             "align":"right",
+             "verticalAlign":"top",
+             "x":0,
+             "y":20,
+             "borderWidth":0
+          },
+          "series":[
+             {
+                "name":"Reply Payvol (DOB)  [40]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":-3907,
+                      "custom_data":{
+                         "value":"-3907",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-3907",
+                            "title":"Net Additions - -3907"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":1221,
+                      "custom_data":{
+                         "value":"1221",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"1221",
+                            "title":"Net Additions - 1221"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":4612,
+                      "custom_data":{
+                         "value":"4612",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"4612",
+                            "title":"Net Additions - 4612"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":3901,
+                      "custom_data":{
+                         "value":"3901",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"3901",
+                            "title":"Net Additions - 3901"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-2952,
+                      "custom_data":{
+                         "value":"-2952",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-2952",
+                            "title":"Net Additions - -2952"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-6045,
+                      "custom_data":{
+                         "value":"-6045",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-6045",
+                            "title":"Net Additions - -6045"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-5195,
+                      "custom_data":{
+                         "value":"-5195",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-5195",
+                            "title":"Net Additions - -5195"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-4411,
+                      "custom_data":{
+                         "value":"-4411",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-4411",
+                            "title":"Net Additions - -4411"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-5817,
+                      "custom_data":{
+                         "value":"-5817",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-5817",
+                            "title":"Net Additions - -5817"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-18014,
+                      "custom_data":{
+                         "value":"-18014",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-18014",
+                            "title":"Net Additions - -18014"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-10136,
+                      "custom_data":{
+                         "value":"-10136",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-10136",
+                            "title":"Net Additions - -10136"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-4784,
+                      "custom_data":{
+                         "value":"-4784",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-4784",
+                            "title":"Net Additions - -4784"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Reply Payvol (DOB)  [40]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"FR (HCNX) I+Mobile Mensual  [44]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":-318,
+                      "custom_data":{
+                         "value":"-318",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-318",
+                            "title":"Net Additions - -318"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-311,
+                      "custom_data":{
+                         "value":"-311",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-311",
+                            "title":"Net Additions - -311"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-278,
+                      "custom_data":{
+                         "value":"-278",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-278",
+                            "title":"Net Additions - -278"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-299,
+                      "custom_data":{
+                         "value":"-299",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-299",
+                            "title":"Net Additions - -299"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-244,
+                      "custom_data":{
+                         "value":"-244",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-244",
+                            "title":"Net Additions - -244"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-288,
+                      "custom_data":{
+                         "value":"-288",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-288",
+                            "title":"Net Additions - -288"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-248,
+                      "custom_data":{
+                         "value":"-248",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-248",
+                            "title":"Net Additions - -248"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-236,
+                      "custom_data":{
+                         "value":"-236",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-236",
+                            "title":"Net Additions - -236"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-278,
+                      "custom_data":{
+                         "value":"-278",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-278",
+                            "title":"Net Additions - -278"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-276,
+                      "custom_data":{
+                         "value":"-276",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-276",
+                            "title":"Net Additions - -276"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-253,
+                      "custom_data":{
+                         "value":"-253",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-253",
+                            "title":"Net Additions - -253"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-250,
+                      "custom_data":{
+                         "value":"-250",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-250",
+                            "title":"Net Additions - -250"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"FR (HCNX) I+Mobile Mensual  [44]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"Espa\u00f1a Portales Mobile Orange  [3]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":-488,
+                      "custom_data":{
+                         "value":"-488",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-488",
+                            "title":"Net Additions - -488"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":750,
+                      "custom_data":{
+                         "value":"750",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"750",
+                            "title":"Net Additions - 750"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":728,
+                      "custom_data":{
+                         "value":"728",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"728",
+                            "title":"Net Additions - 728"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":606,
+                      "custom_data":{
+                         "value":"606",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"606",
+                            "title":"Net Additions - 606"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":445,
+                      "custom_data":{
+                         "value":"445",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"445",
+                            "title":"Net Additions - 445"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":498,
+                      "custom_data":{
+                         "value":"498",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"498",
+                            "title":"Net Additions - 498"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-103,
+                      "custom_data":{
+                         "value":"-103",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-103",
+                            "title":"Net Additions - -103"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-98,
+                      "custom_data":{
+                         "value":"-98",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-98",
+                            "title":"Net Additions - -98"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-1086,
+                      "custom_data":{
+                         "value":"-1086",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-1086",
+                            "title":"Net Additions - -1086"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-195,
+                      "custom_data":{
+                         "value":"-195",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-195",
+                            "title":"Net Additions - -195"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-245,
+                      "custom_data":{
+                         "value":"-245",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-245",
+                            "title":"Net Additions - -245"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-624,
+                      "custom_data":{
+                         "value":"-624",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-624",
+                            "title":"Net Additions - -624"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Orange  [3]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"Polonia DCB Mobiltek Subs  [47]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":2381,
+                      "custom_data":{
+                         "value":"2381",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"2381",
+                            "title":"Net Additions - 2381"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":2284,
+                      "custom_data":{
+                         "value":"2284",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"2284",
+                            "title":"Net Additions - 2284"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":1876,
+                      "custom_data":{
+                         "value":"1876",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"1876",
+                            "title":"Net Additions - 1876"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-3653,
+                      "custom_data":{
+                         "value":"-3653",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-3653",
+                            "title":"Net Additions - -3653"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-2138,
+                      "custom_data":{
+                         "value":"-2138",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-2138",
+                            "title":"Net Additions - -2138"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-4530,
+                      "custom_data":{
+                         "value":"-4530",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-4530",
+                            "title":"Net Additions - -4530"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-4446,
+                      "custom_data":{
+                         "value":"-4446",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-4446",
+                            "title":"Net Additions - -4446"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-7463,
+                      "custom_data":{
+                         "value":"-7463",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-7463",
+                            "title":"Net Additions - -7463"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-2644,
+                      "custom_data":{
+                         "value":"-2644",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-2644",
+                            "title":"Net Additions - -2644"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-134,
+                      "custom_data":{
+                         "value":"-134",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-134",
+                            "title":"Net Additions - -134"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-912,
+                      "custom_data":{
+                         "value":"-912",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-912",
+                            "title":"Net Additions - -912"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":19,
+                      "custom_data":{
+                         "value":"19",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"19",
+                            "title":"Net Additions - 19"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Polonia DCB Mobiltek Subs  [47]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"Engineering_MPay  [10]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":6031,
+                      "custom_data":{
+                         "value":"6031",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"6031",
+                            "title":"Net Additions - 6031"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":11380,
+                      "custom_data":{
+                         "value":"11380",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"11380",
+                            "title":"Net Additions - 11380"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":9730,
+                      "custom_data":{
+                         "value":"9730",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"9730",
+                            "title":"Net Additions - 9730"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":12273,
+                      "custom_data":{
+                         "value":"12273",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"12273",
+                            "title":"Net Additions - 12273"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":11490,
+                      "custom_data":{
+                         "value":"11490",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"11490",
+                            "title":"Net Additions - 11490"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":11089,
+                      "custom_data":{
+                         "value":"11089",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"11089",
+                            "title":"Net Additions - 11089"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":2840,
+                      "custom_data":{
+                         "value":"2840",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"2840",
+                            "title":"Net Additions - 2840"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":517,
+                      "custom_data":{
+                         "value":"517",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"517",
+                            "title":"Net Additions - 517"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-19907,
+                      "custom_data":{
+                         "value":"-19907",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-19907",
+                            "title":"Net Additions - -19907"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-41014,
+                      "custom_data":{
+                         "value":"-41014",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-41014",
+                            "title":"Net Additions - -41014"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-55376,
+                      "custom_data":{
+                         "value":"-55376",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-55376",
+                            "title":"Net Additions - -55376"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-26005,
+                      "custom_data":{
+                         "value":"-26005",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-26005",
+                            "title":"Net Additions - -26005"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Engineering_MPay  [10]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"Espa\u00f1a Altas por MO  [18]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":97,
+                      "custom_data":{
+                         "value":"97",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"97",
+                            "title":"Net Additions - 97"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":8,
+                      "custom_data":{
+                         "value":"8",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"8",
+                            "title":"Net Additions - 8"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":308,
+                      "custom_data":{
+                         "value":"308",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"308",
+                            "title":"Net Additions - 308"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":57,
+                      "custom_data":{
+                         "value":"57",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"57",
+                            "title":"Net Additions - 57"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-13,
+                      "custom_data":{
+                         "value":"-13",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-13",
+                            "title":"Net Additions - -13"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":52,
+                      "custom_data":{
+                         "value":"52",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"52",
+                            "title":"Net Additions - 52"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":479,
+                      "custom_data":{
+                         "value":"479",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"479",
+                            "title":"Net Additions - 479"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":130,
+                      "custom_data":{
+                         "value":"130",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"130",
+                            "title":"Net Additions - 130"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":274,
+                      "custom_data":{
+                         "value":"274",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"274",
+                            "title":"Net Additions - 274"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":145,
+                      "custom_data":{
+                         "value":"145",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"145",
+                            "title":"Net Additions - 145"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-52,
+                      "custom_data":{
+                         "value":"-52",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-52",
+                            "title":"Net Additions - -52"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":288,
+                      "custom_data":{
+                         "value":"288",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"288",
+                            "title":"Net Additions - 288"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Espa\u00f1a Altas por MO  [18]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"Engineering_IPay  [26]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":0,
+                      "custom_data":{
+                         "value":"0",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"0",
+                            "title":"Net Additions - 0"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Engineering_IPay  [26]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":1015,
+                      "custom_data":{
+                         "value":"1015",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"1015",
+                            "title":"Net Additions - 1015"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-196,
+                      "custom_data":{
+                         "value":"-196",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-196",
+                            "title":"Net Additions - -196"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-255,
+                      "custom_data":{
+                         "value":"-255",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-255",
+                            "title":"Net Additions - -255"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":512,
+                      "custom_data":{
+                         "value":"512",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"512",
+                            "title":"Net Additions - 512"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":113,
+                      "custom_data":{
+                         "value":"113",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"113",
+                            "title":"Net Additions - 113"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-623,
+                      "custom_data":{
+                         "value":"-623",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-623",
+                            "title":"Net Additions - -623"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-197,
+                      "custom_data":{
+                         "value":"-197",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-197",
+                            "title":"Net Additions - -197"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-69,
+                      "custom_data":{
+                         "value":"-69",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-69",
+                            "title":"Net Additions - -69"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-131,
+                      "custom_data":{
+                         "value":"-131",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-131",
+                            "title":"Net Additions - -131"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-602,
+                      "custom_data":{
+                         "value":"-602",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-602",
+                            "title":"Net Additions - -602"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-127,
+                      "custom_data":{
+                         "value":"-127",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-127",
+                            "title":"Net Additions - -127"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-119,
+                      "custom_data":{
+                         "value":"-119",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-119",
+                            "title":"Net Additions - -119"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Espa\u00f1a Portales Mobile Movistar Low Price  [34]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"Vodacom Charge to Bill  [46]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":-2385,
+                      "custom_data":{
+                         "value":"-2385",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-2385",
+                            "title":"Net Additions - -2385"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-2368,
+                      "custom_data":{
+                         "value":"-2368",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-2368",
+                            "title":"Net Additions - -2368"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":615,
+                      "custom_data":{
+                         "value":"615",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"615",
+                            "title":"Net Additions - 615"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":8810,
+                      "custom_data":{
+                         "value":"8810",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"8810",
+                            "title":"Net Additions - 8810"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-1334255,
+                      "custom_data":{
+                         "value":"-1334255",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-1334255",
+                            "title":"Net Additions - -1334255"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":1032,
+                      "custom_data":{
+                         "value":"1032",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"1032",
+                            "title":"Net Additions - 1032"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":8434,
+                      "custom_data":{
+                         "value":"8434",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"8434",
+                            "title":"Net Additions - 8434"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":18975,
+                      "custom_data":{
+                         "value":"18975",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"18975",
+                            "title":"Net Additions - 18975"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":14380,
+                      "custom_data":{
+                         "value":"14380",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"14380",
+                            "title":"Net Additions - 14380"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":30655,
+                      "custom_data":{
+                         "value":"30655",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"30655",
+                            "title":"Net Additions - 30655"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":12852,
+                      "custom_data":{
+                         "value":"12852",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"12852",
+                            "title":"Net Additions - 12852"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-7264,
+                      "custom_data":{
+                         "value":"-7264",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-7264",
+                            "title":"Net Additions - -7264"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Vodacom Charge to Bill  [46]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             },
+             {
+                "name":"Lancio (DOB)  [9]",
+                "data":[
+                   {
+                      "x":0,
+                      "y":-2566,
+                      "custom_data":{
+                         "value":"-2566",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-2566",
+                            "title":"Net Additions - -2566"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-07-29",
+                         "timestamp_mysql_day":"2019-07-29",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"29",
+                         "month":"07",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-5394,
+                      "custom_data":{
+                         "value":"-5394",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-5394",
+                            "title":"Net Additions - -5394"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-05",
+                         "timestamp_mysql_day":"2019-08-05",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"05",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-3903,
+                      "custom_data":{
+                         "value":"-3903",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-3903",
+                            "title":"Net Additions - -3903"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-12",
+                         "timestamp_mysql_day":"2019-08-12",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"12",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-2301,
+                      "custom_data":{
+                         "value":"-2301",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-2301",
+                            "title":"Net Additions - -2301"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-19",
+                         "timestamp_mysql_day":"2019-08-19",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"19",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-4274,
+                      "custom_data":{
+                         "value":"-4274",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-4274",
+                            "title":"Net Additions - -4274"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-08-26",
+                         "timestamp_mysql_day":"2019-08-26",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"26",
+                         "month":"08",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-3972,
+                      "custom_data":{
+                         "value":"-3972",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-3972",
+                            "title":"Net Additions - -3972"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-02",
+                         "timestamp_mysql_day":"2019-09-02",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"02",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-3672,
+                      "custom_data":{
+                         "value":"-3672",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-3672",
+                            "title":"Net Additions - -3672"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-09",
+                         "timestamp_mysql_day":"2019-09-09",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"09",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-3382,
+                      "custom_data":{
+                         "value":"-3382",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-3382",
+                            "title":"Net Additions - -3382"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-16",
+                         "timestamp_mysql_day":"2019-09-16",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"16",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-3195,
+                      "custom_data":{
+                         "value":"-3195",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-3195",
+                            "title":"Net Additions - -3195"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-23",
+                         "timestamp_mysql_day":"2019-09-23",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"23",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-20568,
+                      "custom_data":{
+                         "value":"-20568",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-20568",
+                            "title":"Net Additions - -20568"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-09-30",
+                         "timestamp_mysql_day":"2019-09-30",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"30",
+                         "month":"09",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-10037,
+                      "custom_data":{
+                         "value":"-10037",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-10037",
+                            "title":"Net Additions - -10037"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-07",
+                         "timestamp_mysql_day":"2019-10-07",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"07",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   },
+                   {
+                      "x":0,
+                      "y":-11155,
+                      "custom_data":{
+                         "value":"-11155",
+                         "metric":"s_altas_bajas",
+                         "type":"values",
+                         "format":"integer",
+                         "title":"Net Additions",
+                         "captions":{
+                            "formatted_value":"-11155",
+                            "title":"Net Additions - -11155"
+                         },
+                         "legend":"Net Additions",
+                         "timestamp_mysql":"2019-10-14",
+                         "timestamp_mysql_day":"2019-10-14",
+                         "nombre_serie":"Lancio (DOB)  [9]",
+                         "hour":"00",
+                         "day":"14",
+                         "month":"10",
+                         "year":"2019"
+                      }
+                   }
+                ]
+             }
+          ],
+          "exporting":{
+             "buttons":{
+                "exportButton":{
+                   "align":"right",
+                   "backgroundColor":null,
+                   "borderColor":"#B0B0B0",
+                   "borderRadius":3,
+                   "borderWidth":1,
+                   "enabled":true,
+                   "height":20,
+                   "hoverBorderColor":"#909090",
+                   "hoverSymbolFill":"#768F3E",
+                   "hoverSymbolStroke":"#4572A5",
+                   "symbol":"exportIcon",
+                   "symbolFill":"#A8BF77",
+                   "symbolSize":12,
+                   "symbolStroke":"#A0A0A0",
+                   "symbolStrokeWidth":1,
+                   "symbolX":11.5,
+                   "symbolY":10.5,
+                   "verticalAlign":"top",
+                   "width":24,
+                   "x":0,
+                   "y":10
+                },
+                "printButton":{
+                   "align":"right",
+                   "backgroundColor":null,
+                   "borderColor":"#B0B0B0",
+                   "borderRadius":3,
+                   "borderWidth":1,
+                   "enabled":true,
+                   "height":20,
+                   "hoverBorderColor":"#909090",
+                   "hoverSymbolFill":"#779ABF",
+                   "hoverSymbolStroke":"#4572A5",
+                   "symbol":"printIcon",
+                   "symbolFill":"#B5C9DF",
+                   "symbolSize":12,
+                   "symbolStroke":"#A0A0A0",
+                   "symbolStrokeWidth":1,
+                   "symbolX":11.5,
+                   "symbolY":10.5,
+                   "verticalAlign":"top",
+                   "width":24,
+                   "x":-36,
+                   "y":10
+                }
+             }
+          },
+          "fecha_inicio":"2019-07-29",
+          "fecha_fin":"2019-10-20"
+       },
+       "periodo":"29 July 2019 to 20 October 2019",
+       "atajo_periodo":"otro-periodo",
+       "query_log_id":false
+    }
+ }
